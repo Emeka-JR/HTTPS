@@ -123,7 +123,7 @@ export class DashboardComponent implements OnInit {
   OnEditTaskClicked(id: string | undefined) {
     this.currentTaskId = id;
     //Edit Form
-    this.showCreateTaskForm = true;
+    this.showCreateTaskForm = true; 
     this.editMode = true;
 
     this.selectedTask = this.allTasks.find((task) =>
